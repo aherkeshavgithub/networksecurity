@@ -1,0 +1,21 @@
+[2025-04-11 16:42:04,549 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-04-11 16:42:06,132 ] 18 root - INFO - Initiate the data ingestion
+[2025-04-11 16:42:07,555 ] 59 root - INFO - Performed train test split on the dataframe
+[2025-04-11 16:42:07,555 ] 60 root - INFO - Existed split_data_as_train_test method of Data_Ingestion class
+[2025-04-11 16:42:07,555 ] 65 root - INFO - Exporting train and test file path
+[2025-04-11 16:42:07,617 ] 72 root - INFO - Exported train and test file path
+[2025-04-11 16:42:07,617 ] 20 root - INFO - Data ingestion completed
+[2025-04-11 16:42:07,617 ] 25 root - INFO - Initiate the data validation
+[2025-04-11 16:42:07,677 ] 35 root - INFO - Required number of columns:2
+[2025-04-11 16:42:07,677 ] 36 root - INFO - Data frame has columns:31
+[2025-04-11 16:42:07,677 ] 35 root - INFO - Required number of columns:2
+[2025-04-11 16:42:07,677 ] 36 root - INFO - Data frame has columns:31
+[2025-04-11 16:42:07,810 ] 27 root - INFO - Data validation completed
+[2025-04-11 16:42:07,810 ] 31 root - INFO - Data transformation started
+[2025-04-11 16:42:07,810 ] 45 root - INFO - Entered Data transformation method of datatransformation clas
+[2025-04-11 16:42:07,810 ] 47 root - INFO - Started data transformation
+[2025-04-11 16:42:07,845 ] 33 root - INFO - Entered get_data_transformer_object method of transformation class
+[2025-04-11 16:42:07,845 ] 36 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-11 16:42:07,853 ] 40 root - INFO - Entered the save object method of MianUtils class
+[2025-04-11 16:42:07,853 ] 45 root - INFO - Exited from the save object method of MainUtils class
+[2025-04-11 16:42:07,853 ] 35 root - INFO - Data transformation completed
